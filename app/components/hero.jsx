@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import intisLogo from "/public/Images/Logo.png";
 import androidLogo from "/public/Images/logo_android.png";
-import appleLogo from "/public/Images/Logo_apple.png";
+import appleLogo from "/public/Images/logo_apple.png";
 import "./hero.css";
 
 const Hero = () => {
