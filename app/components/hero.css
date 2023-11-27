@@ -1,6 +1,6 @@
 .hero-container {
   height: 80vh;
-  background-image: url("../assets/Background.jpg");
+  background-image: url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 70%;
