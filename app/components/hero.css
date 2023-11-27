@@ -1,0 +1,52 @@
+.hero-container {
+  height: 80vh;
+  background-image: url("../assets/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 70%;
+}
+.hero-container-2 {
+  height: 100%;
+  padding: var(--paddingBodyCenter);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.hero-div-image {
+  margin: auto;
+  max-width: 750px;
+  min-width: 250px;
+  flex: 1;
+}
+.hero-aside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--color-white);
+  margin: auto;
+  max-width: 400px;
+}
+.hero-h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--h1size);
+}
+.hero-aside p {
+  text-align: right;
+  font-size: var(--fontSizep);
+}
+.hero-download-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  flex: 1;
+}

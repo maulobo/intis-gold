@@ -1,0 +1,7 @@
+.mockup-container {
+  background-color: var(--color-black);
+  padding: 8% 8%;
+}
+.mockup-container img {
+  margin: auto;
+}

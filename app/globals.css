@@ -3,25 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-black: #000000;
+  --color-brown: #291414e5;
+  --color-white: #fff;
+  --paddingBodyCenter: 0 8% 0 8%;
+  --paddingCenter: 5% 5%;
+  --color--dorado-inicial: #ffd700;
+  --color--dorado-final: #b8860b;
+  --h2size: 3rem;
+  --h1size: 4rem;
+  --fontSizep: 1.5vw;
 }
-
-@media (prefers-color-scheme: dark) {
+@font-face {
+  font-family: "baron-neue";
+  src: url(../app//assets/baron-neue-cdnfonts/Baron\ Neue.otf);
+}
+* {
+  font-family: "baron-neue";
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 600px) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --h2size: 1.5rem;
+    --h1size: 3rem;
+    --fontSizep: 1rem;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }

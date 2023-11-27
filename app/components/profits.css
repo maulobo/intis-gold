@@ -1,0 +1,72 @@
+.profits-coontainer-outer {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    var(--color--dorado-inicial),
+    var(--color--dorado-final)
+  );
+  padding: 5px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  color: var(--color-white);
+}
+.profits-container {
+  background-color: var(--color-brown);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profits-title {
+  padding: var(--paddingCenter);
+  font-size: var(--h2size);
+  max-width: 700px;
+  text-align: center;
+  text-wrap: balance;
+}
+.profits-button-container {
+  padding: var(--paddingBodyCenter);
+}
+.profits-button-outer {
+  width: auto;
+  position: relative;
+  background: linear-gradient(
+    to right,
+    var(--color--dorado-inicial),
+    var(--color--dorado-final)
+  );
+  border-radius: 15px;
+  padding: 0.2rem;
+}
+.profits-button {
+  padding: 1em;
+  border-radius: 15px;
+  width: 100%;
+  background-color: var(--color-brown);
+  transition: all 1s;
+  font-size: var(--fontSizep);
+}
+.profits-button:hover {
+  background-color: saddlebrown;
+}
+.profits-chart-container {
+  padding: var(--paddingCenter);
+}
+.profits-chart {
+  height: 60vh;
+  width: 60vw;
+}
+.profits-text {
+  padding: var(--paddingBodyCenter);
+  margin-bottom: 5%;
+  max-width: 1000px;
+  text-align: center;
+  font-size: var(--fontSizep);
+  text-wrap: balance;
+}
