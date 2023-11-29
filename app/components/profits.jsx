@@ -2,7 +2,6 @@
 import React from "react";
 import "./profits.css";
 import TradingViewWidget from "./gold-chart";
-import Btn from "./btn";
 
 const Profits = () => {
   return (
@@ -11,7 +10,6 @@ const Profits = () => {
         <div className="profits-title">
           <h2 className="profits-h2">your profits will be in real gold</h2>
         </div>
-        <Btn info="how to play" link="http://www.youtube.com" />
         <div className="profits-chart-container">
           <div className="profits-chart" id="chart">
             <TradingViewWidget />

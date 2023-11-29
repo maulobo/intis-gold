@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 70%;
+  overflow: hidden;
+  position: relative;
 }
 .hero-container-2 {
   height: 100%;
@@ -21,6 +23,9 @@
   min-width: 250px;
   flex: 1;
 }
+.hero-image {
+  scale: 0.01;
+}
 .hero-aside {
   display: flex;
   flex: 1;
@@ -34,10 +39,12 @@
   text-align: center;
   font-weight: bold;
   font-size: var(--h1size);
+  transform: translateX(1000px);
 }
 .hero-aside p {
   text-align: right;
   font-size: var(--fontSizep);
+  transform: translateX(1000px);
 }
 .hero-download-btn {
   display: flex;
@@ -49,4 +56,12 @@
 
 .logo {
   flex: 1;
+  opacity: 0;
+}
+.hero-aside-div {
+  margin: 1rem;
+}
+
+.hero-hr {
+  transform: translateX(1000px);
 }

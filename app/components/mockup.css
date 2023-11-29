@@ -1,6 +1,10 @@
 .mockup-container {
   background-color: var(--color-black);
   padding: 8% 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
 }
 .mockup-container img {
   margin: auto;

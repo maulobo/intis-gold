@@ -1,3 +1,4 @@
+"use client";
 import "./profits.css";
 export default function Btn({ info, link }) {
   return (
