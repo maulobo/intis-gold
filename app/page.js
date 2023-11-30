@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Hero />
       <div style={{ backgroundColor: "black" }}>
-        <Mockup />
+        {/* <Mockup /> */}
         <Profits />
       </div>
       <Rewards />

@@ -22,6 +22,9 @@
   font-family: "baron-neue";
   scroll-behavior: smooth;
 }
+/* main {
+  background-color: var(--color-black);
+} */
 @media only screen and (max-width: 600px) {
   :root {
     --h2size: 1.5rem;

@@ -7,6 +7,7 @@ import appleLogo from "/public/Images/logo_apple.png";
 import "./hero.css";
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
+import Mockup from "./mockup";
 
 const Hero = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -31,34 +32,39 @@ const Hero = () => {
   return (
     <div id="home" className="hero-container">
       <div className="hero-container-2" id="download">
-        <div className="hero-div-image">
-          <div className="hero-div-image-2">
-            <Image
-              id="hero-image"
-              src={intisLogo}
-              alt="logo"
-              className="hero-image"
-            />
+        <div className="hero-first">
+          <div className="hero-div-image">
+            <div className="hero-div-image-2">
+              <Image
+                id="hero-image"
+                src={intisLogo}
+                alt="logo"
+                className="hero-image"
+              />
+            </div>
           </div>
+          <aside className="hero-aside">
+            <h1 id="hero-h1" className="hero-h1">
+              inti's gold
+            </h1>
+            <hr id="hero-hr" className="hero-hr" />
+            <p id="hero-p">
+              manage your resources win real physical gold. dropshipped to you
+              door for free
+            </p>
+            <div className="hero-download-btn">
+              <button id="android" className="logo">
+                <Image src={androidLogo} alt="androidLogo" />
+              </button>
+              <button id="apple" className="logo">
+                <Image src={appleLogo} alt="appleLogo" width={200} />
+              </button>
+            </div>
+          </aside>
         </div>
-        <aside className="hero-aside">
-          <h1 id="hero-h1" className="hero-h1">
-            inti's gold
-          </h1>
-          <hr id="hero-hr" className="hero-hr" />
-          <p id="hero-p">
-            manage your resources win real physical gold. dropshipped to you
-            door for free
-          </p>
-          <div className="hero-download-btn">
-            <button id="android" className="logo">
-              <Image src={androidLogo} alt="androidLogo" />
-            </button>
-            <button id="apple" className="logo">
-              <Image src={appleLogo} alt="appleLogo" width={200} />
-            </button>
-          </div>
-        </aside>
+        <div className="hero-second">
+          <Mockup />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 .hero-container {
-  height: 80vh;
   background-image: url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,18 +8,28 @@
 }
 .hero-container-2 {
   height: 100%;
-  padding: var(--paddingBodyCenter);
+  padding: var(--paddingCenter);
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
+.hero-first {
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.hero-second {
+  flex: 1;
+}
 .hero-div-image {
   margin: auto;
-  max-width: 750px;
-  min-width: 250px;
+  max-width: 550px;
+  min-width: 350px;
   flex: 1;
 }
 .hero-image {
@@ -34,6 +43,7 @@
   color: var(--color-white);
   margin: auto;
   max-width: 400px;
+  min-width: 300px;
 }
 .hero-h1 {
   text-align: center;
