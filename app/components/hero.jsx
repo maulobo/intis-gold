@@ -23,7 +23,8 @@ const Hero = () => {
       .to("#hero-hr", { x: 1, duration: 1, ease: "power4.out" })
       .to("#hero-p", { x: 1, duration: 1, ease: "power4.out" }, "<")
       .to("#android", { opacity: 1 })
-      .to("#apple", { opacity: 1 });
+      .to("#apple", { opacity: 1 })
+      .to(".hero-second", { opacity: 1 });
     return () => {
       tl.kill();
     };

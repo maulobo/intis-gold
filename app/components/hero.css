@@ -20,11 +20,12 @@
 .hero-first {
   flex: 1;
   display: flex;
-  gap: 2rem;
+  gap: 5em;
   flex-wrap: wrap;
 }
 .hero-second {
   flex: 1;
+  opacity: 0;
 }
 .hero-div-image {
   margin: auto;
