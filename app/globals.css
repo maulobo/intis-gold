@@ -7,12 +7,13 @@
   --color-brown: #291414e5;
   --color-white: #fff;
   --paddingBodyCenter: 0 8% 0 8%;
-  --paddingCenter: 5% 5%;
+  --paddingCenter: 8% 8%;
   --color--dorado-inicial: #ffd700;
   --color--dorado-final: #b8860b;
   --h2size: 3rem;
   --h1size: 4rem;
   --fontSizep: 1.5vw;
+  --gap: 2rem;
 }
 @font-face {
   font-family: "baron-neue";

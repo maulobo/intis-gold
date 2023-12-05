@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="footer-terms">
             <h2>Terms and Conditions</h2>
-            <Btn info="VISIT" />
+            <Btn info="terms" />
           </div>
         </div>
       </div>

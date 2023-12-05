@@ -14,14 +14,14 @@
   transition: transform ease 1s;
   z-index: 1;
 }
-.rewards-container:hover .image1 {
+.rewards-leaf-container:hover .image1 {
   transform: translateX(15px) translateY(-15px) scale(0.95);
 }
 
-.rewards-container:hover .image2 {
+.rewards-leaf-container:hover .image2 {
   transform: translateX(-10px) translateY(10px);
 }
-.rewards-container:hover .image3 {
+.rewards-leaf-container:hover .image3 {
   transform: translateX(10px) translateY(20px) scale(1.1);
 }
 .rewards-title-contaier {
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   width: 60%;
-  gap: 1em;
+  gap: 2em;
   margin: auto;
 }
 .rewards-lingotes-images {
@@ -53,7 +53,18 @@
 
 @media only screen and (max-width: 800px) {
   .rewards-leaf-container {
-    height: 40vh;
+    height: 20vh;
+  }
+  .rewards-lingotes-container {
+    margin-bottom: 8%;
+    width: 80%;
+  }
+  .rewards-title-contaier {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 400px) {
