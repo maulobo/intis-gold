@@ -36,6 +36,9 @@
 }
 .profits-button-outer {
   width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background: linear-gradient(
     to right,
@@ -47,9 +50,12 @@
 }
 
 .profits-button {
+  text-decoration: none;
   padding: 1em;
-  border-radius: 15px;
   width: 100%;
+  border-radius: 15px;
+  align-self: center;
+  text-align: center;
   background-color: var(--color-brown);
   transition: all 1s;
   font-size: var(--fontSizep);

@@ -1,15 +1,13 @@
 "use client";
+import Link from "next/link";
 import "./profits.css";
-export default function Btn({ info, link }) {
+export default function Btn({ info, href, down = "" }) {
   return (
     <div className="profits-button-container">
       <div className="profits-button-outer">
-        <button
-          onClick={() => (window.location.href = link)}
-          className="profits-button"
-        >
+        <a href={href} download={down} className="profits-button">
           {info}
-        </button>
+        </a>
       </div>
     </div>
   );

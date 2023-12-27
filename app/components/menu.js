@@ -26,15 +26,19 @@ const Menu = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
-      <NavbarContent>
+    <Navbar
+      style={{ backgroundColor: "#efb810", color: "foreground" }}
+      onMenuOpenChange={setIsMenuOpen}
+      isMenuOpen={isMenuOpen}
+    >
+      <NavbarContent justify="end">
+        <NavbarBrand>
+          <p className="font-bold text-inherit">inti's</p>
+        </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand>
-          <p className="font-bold text-inherit">inti's</p>
-        </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">

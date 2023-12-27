@@ -8,7 +8,7 @@ const Mockup = () => {
   return (
     <div className="mockup-container" id="mockup">
       <Image src={mock} height={500} alt="mockup" className="mockup-image" />
-      <Btn info="how to play" link="#" />
+      <Btn info="how to play" href="https://youtube.com" />
     </div>
   );
 };
